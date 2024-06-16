@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card img {
+  width: 50%;
+  height: 40%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  
 }
+.section h2 {
+  font-family: 'Arial, sans-serif'; /* Sets a clean, sans-serif font */
+  font-size: 2em; /* Increases the font size */
+  color: #4d4444; /* Dark text color */
+  margin-bottom: 10px; /* Adds space below the heading */
+  text-transform: uppercase; /* Makes the text uppercase */
+  letter-spacing: 1px; /* Adds spacing between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds a shadow to the text */
+  align-items: center
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+};
+.section p {
+  font-family: 'Georgia, 'Times New Roman', Times, serif';
+  font-size: larger;
+  color: #4e0a0a
+
+};
+body {
+
+  background-color: bisque;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.section p {
+  font-size: 1.1em; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height for readability */
+  color: #2b1a1a; /* Text color */
+  margin-bottom: 15px; /* Bottom margin */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

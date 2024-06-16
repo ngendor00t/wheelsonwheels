@@ -1,13 +1,18 @@
-import logo from './logo.svg';
+import { act } from 'react';
 import './App.css';
-import home from "./pages/home";
+import Home from './pages/Home';
+// import { Route , Routes } from 'react-router-dom';
+// import Navbar from './components/Navbar'
+// import Signin from './pages/signIn';
+
+
+
 function App() {
   return (
     <>
-    <home/>
-    </>
-   
-  );
+    <Home/>
+   </>
+  )
 }
-
 export default App;
+   
